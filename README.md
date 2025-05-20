@@ -29,7 +29,7 @@ This project builds a binary classification model to predict user purchase behav
 
 ## 📂 Dataset
 
-- Source: `Social_Network_Ads.csv`  
+- Source: [`Social_Network_Ads.csv`](https://www.kaggle.com/datasets/rakeshrau/social-network-ads)
 - Features used:
   - Age
   - Estimated Salary  
