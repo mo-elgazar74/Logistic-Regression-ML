@@ -1,4 +1,4 @@
-# E-Comm# 🧠 Logistic Regression from Scratch & with scikit-learn
+# 🧠 Logistic Regression from Scratch & with scikit-learn
 
 This notebook demonstrates the implementation of **Logistic Regression** using both a **custom-built class** and **scikit-learn**, applied on the *Social_Network_Ads.csv* dataset. It includes full pipeline stages: data preprocessing, exploratory analysis, model training, tuning, and evaluation.
 
