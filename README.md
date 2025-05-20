@@ -1,55 +1,103 @@
-# Logistic Regression from Scratch
+# E-Comm# 🧠 Logistic Regression from Scratch & with scikit-learn
 
-This project implements **Logistic Regression** from the ground up using only NumPy, without relying on high-level machine learning libraries like scikit-learn or TensorFlow. It's intended as an educational tool to understand the inner workings of logistic regression, including model training using gradient descent.
+This notebook demonstrates the implementation of **Logistic Regression** using both a **custom-built class** and **scikit-learn**, applied on the *Social_Network_Ads.csv* dataset. It includes full pipeline stages: data preprocessing, exploratory analysis, model training, tuning, and evaluation.
 
-## Features
+---
 
-- Implementation of logistic regression for binary classification.
-- Uses sigmoid activation and cross-entropy loss.
-- Includes gradient descent optimization.
-- Code is written in Python using only NumPy for numerical operations.
-- Visualizations and model performance evaluation included.
+## 📑 Table of Contents
 
-## Dataset
+1. [Overview](#overview)  
+2. [Dataset](#dataset)  
+3. [Exploratory Data Analysis](#exploratory-data-analysis)  
+4. [Feature Engineering & Scaling](#feature-engineering--scaling)  
+5. [Logistic Regression from Scratch](#logistic-regression-from-scratch)  
+6. [Hyperparameter Tuning](#hyperparameter-tuning)  
+7. [Model Comparison](#model-comparison)  
+8. [Evaluation Metrics](#evaluation-metrics)  
+9. [Conclusion](#conclusion)
 
-The dataset used in this project is the **Churn_Modelling.csv**, which contains customer data from a bank and is used for binary classification (whether a customer will churn or not).
+---
 
-- You can download it from Kaggle:  
-  [Bank Churn Dataset - LightGBM Classification Notebook](https://www.kaggle.com/code/aspillai/bank-churn-dataset-classification-lightgbm/input?select=Churn_Modelling.csv)
+## 🔍 Overview
 
-- Features include customer demographics, account balance, tenure, number of products, and more.
+This project builds a binary classification model to predict user purchase behavior on a social network platform based on features like **Age** and **Estimated Salary**. Two logistic regression models are explored:
 
-## Notebook Contents
+- ✅ From-scratch implementation using NumPy  
+- 🛠️ Scikit-learn implementation with hyperparameter tuning
 
-- **Data Preparation**: Loading and preprocessing the dataset.
-- **Model Implementation**: Custom logistic regression class/functions.
-- **Training & Evaluation**: Model training using gradient descent and accuracy/loss tracking.
-- **Visualization**: Decision boundaries, loss curves, and prediction plots.
+---
 
-## Getting Started
+## 📂 Dataset
 
-### Prerequisites
+- Source: `Social_Network_Ads.csv`  
+- Features used:
+  - Age
+  - Estimated Salary  
+- Target: Purchased (Binary class: 0 or 1)
 
-- Python 3.x
-- NumPy
-- Matplotlib (for visualization)
-- Jupyter Notebook or a compatible environment
+---
 
-### How to Run
+## 📊 Exploratory Data Analysis
 
-1. Clone the repository or download the notebook.
-2. Install the required libraries:
-   ```bash
-   pip install numpy matplotlib
-   ```
-3. Download the dataset from the [Kaggle link](https://www.kaggle.com/code/aspillai/bank-churn-dataset-classification-lightgbm/input?select=Churn_Modelling.csv) and place it in the same directory as the notebook.
-4. Open the notebook:
-   ```bash
-   jupyter notebook logistic-regression-from-scratch.ipynb
-   ```
-5. Run each cell in order to follow the workflow from data preparation to model evaluation.
+Includes:
+- Gender-based distribution of salary and age
+- Purchase patterns by gender
+- Correlation heatmaps
+- Multivariate plots with Seaborn & Matplotlib
 
-## License
+---
 
-This project is licensed under the MIT License - see the [LICENSE](#license) section below for details.
+## 🧪 Feature Engineering & Scaling
 
+Steps:
+- Encoding categorical variables  
+- Standardizing numerical features  
+- Splitting data into training and test sets
+
+---
+
+## 🏗️ Logistic Regression from Scratch
+
+A custom class `LogisticRegressionScratch` is defined and trained using gradient descent. It includes:
+- Sigmoid function  
+- Cost function (Binary Cross-Entropy)  
+- Gradient computation and parameter update logic  
+- Training loop with accuracy tracking
+
+---
+
+## 🧪 Hyperparameter Tuning
+
+- Conducted Grid Search for scikit-learn model
+- Evaluated various regularization parameters and solvers
+
+---
+
+## 📈 Model Comparison
+
+- Compared the performance of:
+  - Custom implementation  
+  - scikit-learn’s `LogisticRegression`
+
+---
+
+## 📊 Evaluation Metrics
+
+- Confusion Matrix
+- Precision-Recall Curve
+- Accuracy Score
+- Classification Report
+
+---
+
+## 📝 Conclusion
+
+This notebook demonstrates the practical implementation of logistic regression from theoretical concepts to a real-world application. It reinforces understanding of model behavior, training dynamics, and evaluation metrics.
+
+                                ---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### ✨ Contributions Welcome!
