@@ -6,15 +6,15 @@ This notebook demonstrates the implementation of **Logistic Regression** using b
 
 ## 📑 Table of Contents
 
-1. [Overview](#overview)  
-2. [Dataset](#dataset)  
-3. [Exploratory Data Analysis](#exploratory-data-analysis)  
-4. [Feature Engineering & Scaling](#feature-engineering--scaling)  
-5. [Logistic Regression from Scratch](#logistic-regression-from-scratch)  
-6. [Hyperparameter Tuning](#hyperparameter-tuning)  
-7. [Model Comparison](#model-comparison)  
-8. [Evaluation Metrics](#evaluation-metrics)  
-9. [Conclusion](#conclusion)
+1. [Overview](#-overview)  
+2. [Dataset](#-dataset)  
+3. [Exploratory Data Analysis](#-exploratory-data-analysis)  
+4. [Feature Engineering & Scaling](#-feature-engineering--scaling)  
+5. [Logistic Regression from Scratch](#-logistic-regression-from-scratch)  
+6. [Hyperparameter Tuning](#-hyperparameter-tuning)  
+7. [Model Comparison](#-model-comparison)  
+8. [Evaluation Metrics](#-evaluation-metrics)  
+9. [Conclusion](#-conclusion)
 
 ---
 
