@@ -94,7 +94,7 @@ A custom class `LogisticRegressionScratch` is defined and trained using gradient
 
 This notebook demonstrates the practical implementation of logistic regression from theoretical concepts to a real-world application. It reinforces understanding of model behavior, training dynamics, and evaluation metrics.
 
-                                ---
+---
 
 ## 📜 License
 
